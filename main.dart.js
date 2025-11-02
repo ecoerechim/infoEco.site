@@ -111808,7 +111808,7 @@ h=J.e(h,B.b.gW(B.by.H().split(".")))}else h=!1
 s=h?9:11
 break
 case 9:h=J.q1(k)
-s=J.e(h==null?null:J.ap(h,"isAprovado"),!0)?12:14
+s=J.e(h==null?null:J.ap(h,"aprovacao_cooperativa"),!0)?12:14
 break
 case 12:i=m.c
 if(i!=null)A.aV(i,!1).GU(A.cv(new A.aI5(),null,t.z))
