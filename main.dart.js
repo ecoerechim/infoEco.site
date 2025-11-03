@@ -111808,7 +111808,7 @@ h=J.e(h,B.b.gW(B.by.H().split(".")))}else h=!1
 s=h?9:11
 break
 case 9:h=J.q1(k)
-s=J.e(h==null?null:J.ap(h,"aprovacao_cooperativa"),!0)?12:14
+s=J.e(h==null?null:J.ap(h,"isAprovado"),!0)?12:14
 break
 case 12:i=m.c
 if(i!=null)A.aV(i,!1).GU(A.cv(new A.aI5(),null,t.z))
@@ -115432,7 +115432,7 @@ case 2:m=$.G
 i=(m==null?$.G=$.ao():m).am("[DEFAULT]")
 A.aa(i,j,!0)
 j=A.bb(new A.ak(i)).U("users").a4(B.b.gW(o))
-k=A.jo(A.a1(["aprovacao_cooperativa",!0],l,k))
+k=A.jo(A.a1(["isAprovado",!0],l,k))
 k.toString
 s=3
 return A.k(j.a.c2(0,k),$async$$0)
