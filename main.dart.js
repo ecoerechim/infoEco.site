@@ -116271,7 +116271,7 @@ n=(o==null?$.G=$.ao():o).am("[DEFAULT]")
 A.aa(n,$.b4(),!0)
 m=A
 s=3
-return A.k(A.bb(new A.ak(n)).U("prefeituras").a4(p.r).U("cooperativas").a4(p.f).U("partilhas_cooperados").GC("timestamp",!0).cM(0),$async$C8)
+return A.k(A.bb(new A.ak(n)).U("prefeituras").a4(p.r).U("cooperativas").a4(p.f).U("partilhas_realizadas").GC("timestamp",!0).cM(0),$async$C8)
 case 3:p.G(new m.aWG(p,b))
 case 1:return A.r(q,r)}})
 return A.t($async$C8,r)},
@@ -116323,7 +116323,7 @@ $S:0}
 A.aWX.prototype={
 $0(){var s=A.a(["NOME","VALOR DA PARTILHA"],t.s),r=this.a.e,q=A.Y(r).i("U<1,I<@>>"),p=A.a_(new A.U(r,new A.aWV(),q),!0,q.i("ah.E"))
 q=A.Y(p).i("U<1,I<f>>")
-A.pu(this.b,"partilhas_cooperados",s,A.a_(new A.U(p,new A.aWW(),q),!0,q.i("ah.E")))},
+A.pu(this.b,"partilhas_realizadas",s,A.a_(new A.U(p,new A.aWW(),q),!0,q.i("ah.E")))},
 $S:0}
 A.aWV.prototype={
 $1(a){var s,r=a.b,q=a.a,p=A.cs(r.aZ(0,"nome"),q)
